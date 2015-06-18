@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skype"
+        android:textColor="#00A7E4"
+        android:textSize="18sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/edt_skypeusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="輸入對方ID..."
+        android:textColor="#000000" >
+    </EditText>
+
+    <Button
+        android:id="@+id/openskype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00A7E4"
+        android:text="開啟Skype" >
+    </Button>
+
+    <Button
+        android:id="@+id/skypemsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00A7E4"
+        android:text="Skype訊息" >
+    </Button>
+
+    <Button
+        android:id="@+id/skypecall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00A7E4"
+        android:text="Skype語音" >
+    </Button>
+
+    <Button
+        android:id="@+id/skypevideocall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00A7E4"
+        android:text="Skype影像" >
+    </Button>
+
+</LinearLayout>
